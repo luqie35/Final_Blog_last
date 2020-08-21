@@ -1,0 +1,48 @@
+.img {
+  vertical-align: middle;
+  border-style: none;
+}
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #2f76a5;
+}
+
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.img {
+  background-color: rgb(56, 47, 47);
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgb(51, 48, 48);
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(46, 38, 38);
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(0, 173, 179);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}

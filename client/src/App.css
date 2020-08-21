@@ -1,0 +1,528 @@
+html,
+.header {
+  height: 100%;
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #3d435f !important;
+  }
+}
+
+.view,
+html {
+  height: 100%;
+  background: url(https://images.wallpaperscraft.com/image/mask_hood_anonymous_138091_3840x2400.jpg)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+}
+
+.h-wrapper {
+  background-color: #2f2f2f;
+}
+
+.h-wrapper .container {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page-footer,
+.top-nav-collapse {
+  background-color: #3bdfbb;
+}
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #05a1fb;
+    display: flex;
+  }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00ffe0;
+  color: white;
+  text-align: center;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(223, 234, 235);
+  text-decoration-color: ivory;
+  text-emphasis: white;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding-top: 50px;
+}
+.about {
+  padding-top: 55px;
+  background-blend-mode: lighten;
+  background: url(https://images.wallpaperscraft.com/image/mask_hood_anonymous_138091_3840x2400.jpg)
+    no-repeat center center fixed;
+}
+
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  background-size: cover;
+  border-color: #00ccff;
+}
+
+.body {
+  height: 100%;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  background: url(https://images.wallpaperscraft.com/image/mask_hood_anonymous_138091_3840x2400.jpg)
+    no-repeat center center fixed;
+  text-align: center;
+  transition: 0.3s;
+
+  float: right;
+  color: #ffff;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+  color: #05aa9c;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  height: 350px;
+  width: 100px;
+  padding-bottom: 110px;
+}
+
+/* Products */
+
+* {
+  box-sizing: border-box;
+}
+
+.p-wrapper {
+  margin-top: 20px;
+  background: url(https://images.wallpaperscraft.com/image/mask_hood_anonymous_138091_3840x2400.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Float four columns side by side */
+.p-wrapper .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.p-wrapper .row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.p-wrapper .row:after {
+  content: "";
+  display: table;
+  padding-bottom: 20px;
+  clear: both;
+}
+
+/* Style the counter cards */
+.p-wrapper .card-body {
+  box-shadow: 0 4px 8px 0 rgb(11, 195, 252); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: gray;
+  color: rgb(0, 217, 255);
+  height: 300px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .p-wrapper .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.navbar {
+  background-color: rgb(0, 157, 248);
+  display: inline-flex;
+}
+
+.navbar li {
+  float: right;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008cba;
+}
+.p-wrapper img {
+  vertical-align: middle;
+  border-style: none;
+  width: 100px;
+  height: 350px;
+}
+/* Products */
+
+/* Sneakers */
+
+.sneaker .leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.sneaker .img {
+  display: flexbox;
+  background-color: rgb(37, 33, 33);
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+}
+
+.sneaker .card {
+  background-color: rgb(194, 99, 99);
+  padding: 20px;
+  margin-top: 20px;
+  background-color: rgb(46, 38, 38);
+}
+
+/* Footer */
+.sneaker .footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(60, 88, 88);
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .sneaker .leftcolumn,
+  .sneaker .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+.navbar {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* Sneakers */
+/* Forms */
+input {
+  margin: 1.2rem 0;
+}
+
+.form-text {
+  display: block;
+  margin-top: 0.3rem;
+  color: #888;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button {
+  font: inherit;
+}
+
+.form-group {
+  margin: 1.2rem 0;
+}
+
+.form-group input {
+  margin: 0.2rem 0;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  overflow: hidden;
+  padding: 0 2rem;
+}
+
+.form-container h1,
+h2,
+h3 {
+  text-align: center;
+}
+.py-5 {
+  padding-top: 200px;
+}
+
+@media (max-width: 575.98px) {
+  .table-responsive-sm {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-sm > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .table-responsive-md {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-md > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .table-responsive-lg {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-lg > .table-bordered {
+    border: 0;
+  }
+}
+@media (max-width: 1199.98px) {
+  .table-responsive-xl {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .table-responsive-xl > .table-bordered {
+    border: 0;
+  }
+}
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.table-responsive > .table-bordered {
+  border: 0;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .form-control {
+    transition: none;
+  }
+}
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+.form-control:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #495057;
+}
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #fbc2b3;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(244, 98, 58, 0.25);
+}
+.form-control::-webkit-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.form-control::-moz-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.form-control::-ms-input-placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.form-control::placeholder {
+  color: #6c757d;
+  opacity: 1;
+}
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #e9ecef;
+  opacity: 1;
+}
+
+input[type="date"].form-control,
+input[type="time"].form-control,
+input[type="datetime-local"].form-control,
+input[type="month"].form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select.form-control:focus::-ms-value {
+  color: #495057;
+  background-color: #fff;
+}
+
+.form-control-file,
+.form-control-range {
+  display: block;
+  width: 100%;
+}
+
+.col-form-label {
+  padding-top: calc(0.375rem + 1px);
+  padding-bottom: calc(0.375rem + 1px);
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: 1.5;
+}
+
+.col-form-label-lg {
+  padding-top: calc(0.5rem + 1px);
+  padding-bottom: calc(0.5rem + 1px);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.col-form-label-sm {
+  padding-top: calc(0.25rem + 1px);
+  padding-bottom: calc(0.25rem + 1px);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.form-control-plaintext {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0;
+  margin-bottom: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  border: solid transparent;
+  border-width: 1px 0;
+}
+.form-control-plaintext.form-control-sm,
+.form-control-plaintext.form-control-lg {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.form-control-sm {
+  height: calc(1.5em + 0.5rem + 2px);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
+.form-control-lg {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.app-container {
+  background: url(https://images.wallpaperscraft.com/image/mask_hood_anonymous_138091_3840x2400.jpg)
+    no-repeat center center fixed;
+  background-size: cover;
+}

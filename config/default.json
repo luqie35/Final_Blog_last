@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://luqie:<password>@cluster0.imsuv.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "secret101"
+}
